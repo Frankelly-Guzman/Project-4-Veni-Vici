@@ -1,21 +1,21 @@
-# Web Development Project 4 - *PawPal*
+# Web Development Project 4 - _PawPal_
 
 Submitted by: **Frankelly Guzman**
 
 This web app: **This app allows users to learn about numerous dog breeds. They can select certain keywords to be removed so they can narrow down their search if they are familiar with specific breeds.**
 
-Time spent: **X** hours spent in total
+Time spent: **2** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **Clicking a button creates a new API fetch request and displays at least three attributes from the returned JSON data**
-- [ ] **Only one item/API call is viewable at a time**
-- [ ] **API calls appear random to the user**
-- [ ] **At least one image is displayed per API call**
-- [ ] **Clicking on a displayed value for one attribute adds it to a displayed ban list**
-- [ ] **Attributes on the ban list prevent further images/API results with that attribute from being displayed**
+- [x] **Clicking a button creates a new API fetch request and displays at least three attributes from the returned JSON data**
+- [x] **Only one item/API call is viewable at a time**
+- [x] **API calls appear random to the user**
+- [x] **At least one image is displayed per API call**
+- [x] **Clicking on a displayed value for one attribute adds it to a displayed ban list**
+- [x] **Attributes on the ban list prevent further images/API results with that attribute from being displayed**
 
 The following **optional** features are implemented:
 
@@ -24,16 +24,18 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+- [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/gallery/K0CFmOt.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+
+GIF created with ScreenToGif
+
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -41,7 +43,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Although the API documentation states it is strictly for dogs. I ran into the issue where the API calls where returning either animals that were not dogs entirely or the returned data was missing the required fields for the app the function properly such as breed information.
 
 ## License
 
