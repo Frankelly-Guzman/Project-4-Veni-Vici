@@ -1,41 +1,40 @@
-# Web Development Project 4 - _PawPal_
+# Web Development Project 4 - *PawPal*
 
 Submitted by: **Frankelly Guzman**
 
-This web app: **This app allows users to learn about numerous dog breeds. They can select certain keywords to be removed so they can narrow down their search if they are familiar with specific breeds.**
+This web app: **This app allows the user to fetch a new dog as well as ban the dog's breed or specific working class**
 
-Time spent: **2** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **Clicking a button creates a new API fetch request and displays at least three attributes from the returned JSON data**
-- [x] **Only one item/API call is viewable at a time**
-- [x] **API calls appear random to the user**
-- [x] **At least one image is displayed per API call**
-- [x] **Clicking on a displayed value for one attribute adds it to a displayed ban list**
-- [x] **Attributes on the ban list prevent further images/API results with that attribute from being displayed**
+- [X] **Clicking a button creates a new API fetch request and displays at least three attributes from the returned JSON data**
+- [X] **Only one item/API call is viewable at a time**
+- [X] **API calls appear random to the user**
+- [X] **At least one image is displayed per API call**
+- [X] **Clicking on a displayed value for one attribute adds it to a displayed ban list**
+- [X] To ensure an accurate grade, your recording **must** show that when clicked, an attribute in the ban list is immediately removed from the list of banned attributes
+- [X] **Attributes on the ban list prevent further images/API results with that attribute from being displayed**
 
 The following **optional** features are implemented:
 
-- [ ] Multiple types of attributes can be added to the ban list
-- [ ] Users can see a stored history of their previously viewed items from their session
+- [X] Multiple types of attributes can be added to the ban list
+- [X] Users can see a stored history of their previously viewed items from their session
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you added to improve the site's functionality!
+* [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/vEvo8sB.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='gif-example.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-
-GIF created with ScreenToGif
-
+GIF created with GIPHY Capture
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -43,11 +42,13 @@ GIF created with ScreenToGif
 
 ## Notes
 
-Although the API documentation states it is strictly for dogs. I ran into the issue where the API calls where returning either animals that were not dogs entirely or the returned data was missing the required fields for the app the function properly such as breed information.
+Describe any challenges encountered while building the app.
+
+The biggest challenge I faced was having repeated API calls upon refresh. It took me some time to find the bug that was causing this issue.
 
 ## License
 
-    Copyright [2024] [Frankelly  Guzman]
+    Copyright [2024] [Frankelly Guzman]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
